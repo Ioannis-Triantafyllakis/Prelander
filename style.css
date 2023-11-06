@@ -1,0 +1,43 @@
+body {
+  
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  color: #DA0037;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.profile-name {
+    text-align: center;
+    padding: 30px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #EDEDED;
+    border-width: 2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color:413F42;
+    font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #EDEDED;
+  transition: color 1s; 
+}
+
+a:hover {
+  color: #000;
+  opacity: 70%;
+  transform: scale(1.02);
+}
+
+
+
